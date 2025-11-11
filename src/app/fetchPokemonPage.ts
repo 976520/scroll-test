@@ -1,5 +1,5 @@
 import type { PageResponse } from "scrolloop";
-import type { Pokemon } from "./type";
+import type { Pokemon } from "../types/type";
 
 export async function fetchPokemonPage(
   page: number,
